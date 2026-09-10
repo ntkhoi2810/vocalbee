@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VocalBee / Next.js
+node_modules/
+.next/
+out/
+data/
+.env*.local
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Keep application source despite the legacy Python lib/ rule above.
+!src/lib/
+!src/lib/**
